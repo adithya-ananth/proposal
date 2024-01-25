@@ -26,7 +26,7 @@ export default function Home () {
     return (
         <div className="w-screen h-screen bg-pink-500 flex items-center justify-center">
             <div className="flex flex-col items-center space-y-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WZXVs8tr9Zm9MmZxLzc80J9QEUCUyR7LWA&usqp=CAU"/>
+                <img src="https://i.giphy.com/cLS1cfxvGOPVpf9g3y.webp"/>
                 <p className="font-bold text-xl text-white">Will you be my valentine?</p>
                 <Button onClick={handleClick}>Yes!</Button>
                 <Button onMouseEnter={handleHover}>No</Button>
